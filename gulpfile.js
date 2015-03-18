@@ -26,7 +26,7 @@ gulp.task('serve', ['sass'], function() {
         server: "./app"
     });
 
-    gulp.watch("app/HTML/css/.css",.on('change', reload);
+    gulp.watch("app/HTML/css/.css").on('change', reload);
     gulp.watch("app/HTML/*.html").on('change', reload);
 });
  
@@ -61,4 +61,4 @@ gulp.task('compilehtml-jade', function() {
     .pipe(reload({stream: true}));
 });
 
-gulp.task('default',['serve']);
+gulp.task('default',['serve-stylus-jade']);
