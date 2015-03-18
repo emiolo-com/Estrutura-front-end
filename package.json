@@ -1,0 +1,26 @@
+{
+  "name": "testes-sass",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.3.1",
+    "gulp": "^3.8.10",
+    "gulp-jade": "^1.0.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-stylus": "^2.0.1",
+    "gulp-watch": "^0.6.9",
+    "jade": "^1.9.2",
+    "node-sass": "^0.9.3",
+    "stylus": "^0.50.0"
+  },
+  "devDependencies": {
+    "gulp-scss-lint": "^0.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
