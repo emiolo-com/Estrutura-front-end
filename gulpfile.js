@@ -8,7 +8,7 @@ var gulp = require('gulp'),
  reload      = browserSync.reload;
 
 // Static server jade and sylus
-gulp.task('serve-stylus-jade',['compilecss','compilehtml'], function() {
+gulp.task('serve-stylus-jade',['compilecss-stylus','compilehtml-jade'], function() {
     browserSync({
         server: {
             baseDir: "./build"
